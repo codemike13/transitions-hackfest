@@ -4,5 +4,112 @@
     height: 100px;
     margin: -3px;
     background-color: blue;
+    background-image: none;
     border: 3px solid red;
+    transition: 3s, background-image 3s;
+}
+
+#top1:hover{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    background-image: url(/secure.jpg);
+    background-size: cover;
+}
+
+#top1:hover{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    background-image: url(/secure.jpg);
+    background-size: cover;
+}
+
+#top1:hover{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    background-image: url(/secure.jpg);
+    background-size: cover;
+}
+
+#top2:hover{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    background-image: url(/secure.jpg);
+    background-size: cover;
+}
+
+#top3:hover{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    background-image: url(/secure.jpg);
+    background-size: cover;
+}
+
+#mid1:hover{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    background-image: url(/secure.jpg);
+    background-size: cover;
+}
+
+#mid2:hover{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    background-image: url(/secure.jpg);
+    background-size: cover;
+}
+
+#mid3:hover{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    background-image: url(/secure.jpg);
+    background-size: cover;
+}
+
+#bottom1:hover{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    background-image: url(/secure.jpg);
+    background-size: cover;
+}
+
+#bottom2:hover{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    background-image: url(/secure.jpg);
+    background-size: cover;
+}
+
+#bottom3:hover{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    background-image: url(/secure.jpg);
+    background-size: cover;
+}
+
+#app{
+    text-align: center;
+    padding-top: 200px;
+}
+
+#top {
+    padding-top: 20px;
+}
+
+#mid {
+    position: relative;
+}
+
+#bottom {
+    position: relative;
 }
