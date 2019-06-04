@@ -50,7 +50,7 @@ body {
 }
 #left3:hover {
   transition: 3s;
-  transform: translateY(-206px);
+  transform: rotate3d(180, 180, 180, 360deg) translateY(-206px);
 }
 
 /* //////////////////////////////////////////////////////////////////*/
@@ -92,7 +92,7 @@ body {
 }
 #right1:hover {
   transition: 3s;
-  transform: translateX(-206px);
+  transform: rotate3d(180, 360, 180, 360deg) translateX(-206px);
 }
 #right2:hover {
   transition: 3s;
