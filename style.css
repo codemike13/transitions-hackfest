@@ -1,115 +1,110 @@
+body {
+  text-align: center;
+}
 .square {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    margin: -3px;
-    background-color: blue;
-    background-image: none;
-    border: 3px solid red;
-    transition: 3s, background-image 3s;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  /* margin: -3px; */
+  /* background-color: blue; */
+  border: 3px solid red;
+  transition: 2s;
 }
 
-#top1:hover{
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-    background-image: url(/secure.jpg);
-    background-size: cover;
+#app {
+  text-align: center;
+  position: relative;
+  top: 200px;
+  right: ;
+  left: 0;
+
+  display: inline-flex;
+}
+#stay {
+  max-width: 103px;
+  max-height: 103px;
+}
+.square:hover {
+  transition: 3s;
+  width: 306px;
+  height: 306px;
+
+  /* transform: rotate(180deg); */
+}
+/* //////////////////////////////////////////////////////////////////*/
+/* ///////////////////////////// TOP ROW ////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////*/
+
+.left {
+  display: inline;
 }
 
-#top1:hover{
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-    background-image: url(/secure.jpg);
-    background-size: cover;
+#left1:hover {
+  transition: 3s;
+  transform: translate(0);
 }
 
-#top1:hover{
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-    background-image: url(/secure.jpg);
-    background-size: cover;
+#left2:hover {
+  transition: 3s;
+  transform: translateY(-103px);
+}
+#left3:hover {
+  transition: 3s;
+  transform: translateY(-206px);
 }
 
-#top2:hover{
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-    background-image: url(/secure.jpg);
-    background-size: cover;
+/* //////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////*/
+
+/* //////////////////////////////////////////////////////////////////*/
+/* ///////////////////////////// MIDDLE ROW /////////////////////////*/
+/* //////////////////////////////////////////////////////////////////*/
+
+.mid {
+  display: inline;
 }
 
-#top3:hover{
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-    background-image: url(/secure.jpg);
-    background-size: cover;
+#mid1:hover {
+  transition: 3s;
+  transform: translate(-103px, 0px);
 }
 
-#mid1:hover{
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-    background-image: url(/secure.jpg);
-    background-size: cover;
+#mid2:hover {
+  transition: 3s;
+  transform: translate(-103px, -103px);
 }
 
-#mid2:hover{
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-    background-image: url(/secure.jpg);
-    background-size: cover;
+#mid3:hover {
+  transition: 3s;
+  transform: translate(-103px, -206px);
 }
 
-#mid3:hover{
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-    background-image: url(/secure.jpg);
-    background-size: cover;
+/* //////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////*/
+
+/* //////////////////////////////////////////////////////////////////*/
+/* ///////////////////////////// BOTTOM ROW /////////////////////////*/
+/* //////////////////////////////////////////////////////////////////*/
+.right {
+  display: inline;
+}
+#right1:hover {
+  transition: 3s;
+  transform: translateX(-206px);
+}
+#right2:hover {
+  transition: 3s;
+  transform: translate(-206px, -103px);
 }
 
-#bottom1:hover{
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-    background-image: url(/secure.jpg);
-    background-size: cover;
+#right3:hover {
+  transition: 3s;
+  transform: translate(-206px, -206px);
+  
 }
 
-#bottom2:hover{
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-    background-image: url(/secure.jpg);
-    background-size: cover;
-}
-
-#bottom3:hover{
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-    background-image: url(/secure.jpg);
-    background-size: cover;
-}
-
-#app{
-    text-align: center;
-    padding-top: 200px;
-}
-
-#top {
-    padding-top: 20px;
-}
-
-#mid {
-    position: relative;
-}
-
-#bottom {
-    position: relative;
-}
+/* //////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////*/
